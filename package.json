@@ -16,7 +16,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages "
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,5 +34,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://jong-myeong.github.io/nomad_coders_reactjs_movie_app"
+  "homepage": "https://jong-myeong.github.io/nomad_coders_movie_app/"
 }
